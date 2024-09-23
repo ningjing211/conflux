@@ -1,4 +1,4 @@
-console.log("test.js is working ");
+// console.log("test.js is working ");
 // // Import THREE.js
 // import * as THREE from 'three';
 

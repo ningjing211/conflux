@@ -304,10 +304,10 @@ let models = []
 
 // Dark Vador
 gltfLoader.load(
-    "/public/models/Dark_vador/scene.gltf",
+    "/public/models/Dark_vador/conflux-group-logo.gltf",
     (gltf) => {
-        gltf.scene.scale.set(5, 5, 5)
-        gltf.scene.position.y = initialPositionMeshY
+        gltf.scene.scale.set(1, 1, 1)
+        gltf.scene.position.y = initialPositionMeshY 
         gltf.scene.rotation.y = initialRotationMeshY
 
         scene.add(gltf.scene)
@@ -334,7 +334,7 @@ let startTouch = 0
 gltfLoader.load(
     "/public/models/Rock/scene.gltf",
     (gltf) => {
-        gltf.scene.scale.set(2.5, 2, 2.5)
+        gltf.scene.scale.set(2, 2, 2)
         gltf.scene.position.y = initialPositionMeshY - 1.73
         gltf.scene.rotation.y = initialRotationMeshY
 
