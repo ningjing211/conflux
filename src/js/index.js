@@ -334,7 +334,7 @@ let startTouch = 0
 gltfLoader.load(
     "/models/Rock/scene.gltf",
     (gltf) => {
-        gltf.scene.scale.set(2, 2, 2)
+        gltf.scene.scale.set(2.1, 2.1, 2.1)
         gltf.scene.position.y = initialPositionMeshY - 1.73
         gltf.scene.rotation.y = initialRotationMeshY
 
