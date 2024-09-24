@@ -306,7 +306,7 @@ let models = []
 gltfLoader.load(
     "/models/Dark_vador/conflux-group-logo.gltf",
     (gltf) => {
-        gltf.scene.scale.set(1, 1, 1)
+        gltf.scene.scale.set(1.1, 1.1, 1.1)
         gltf.scene.position.y = initialPositionMeshY 
         gltf.scene.rotation.y = initialRotationMeshY
 
